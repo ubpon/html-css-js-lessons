@@ -6,11 +6,11 @@
 	<title>Lesson 2</title>
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 p-10">
 	<header>
-		<nav>
+		<nav class="hidden w-full md:block md:w-auto">
 			<a href="/">Logo</a>
-			<ul>
+			<ul class="flex flex-row flex-col-3 p-4 md:p-0 mt-4 md:space-x-4">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact Us</a></li>
@@ -18,21 +18,21 @@
 		</nav>
 	</header>
 	<main>
-		<section>
-			<h1>Header 1</h1>
-			<h3>Sub header</h3>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde blanditiis maiores sunt, esse, porro ut nobis labore veritatis magni beatae corrupti pariatur! Voluptatem, culpa placeat beatae dolor minima vero?</p>
+		<section class="bg-blue-300 p-4">
+			<h1 class="text-2xl">Header 1</h1>
+			<h3 class="text-sm">Sub header</h3>
+			<p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad unde blanditiis maiores sunt, esse, porro ut nobis labore veritatis magni beatae corrupti pariatur! Voluptatem, culpa placeat beatae dolor minima vero?</p>
 		</section>
-		<section>
+		<section class="bg-orange-300 p-4">
 			<article>
-				<h1>Title</h1>
-				<span>Date</span>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corporis ex unde ab earum sed pariatur aspernatur nemo explicabo corrupti? Facilis quam incidunt cupiditate molestiae fugit, assumenda nemo reprehenderit illo.</p>
+				<h1 class="text-2xl">Title</h1>
+				<span class="text-red-900">Date</span>
+				<p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corporis ex unde ab earum sed pariatur aspernatur nemo explicabo corrupti? Facilis quam incidunt cupiditate molestiae fugit, assumenda nemo reprehenderit illo.</p>
 			</article>
 		</section>
 	</main>
 	<footer>
-		<ul>
+		<ul class="m-4 grid gap-4 grid-cols-3 sm:grid-cols-3">
 			<li>column 1</li>
 			<li>column 2</li>
 			<li>column 3</li>
